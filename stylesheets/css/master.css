@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans';
+  background-color: #e3e7ed;
+}
+
+header {
+  background: #4b92ea;
+  color: white;
+  height: 80px;
+  padding: 0 25px;
+}
+
+header nav {
+  float: right;
+  padding-right: 140px;
+}
+
+header h1 {
+  float: left;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-top: 18px;
+  background-image: url("https://theme.zdassets.com/theme_assets/841909/521770966e9fed5d0e60ab80a3c502b859315ae4.png");
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 17px 10px;
+  font-size: 17px;
+}
+nav li img{
+  height: 25px;
+  width: 25px;
+}
+
+nav li:hover {
+  background: #3F8DA7;
+  color: white;
+}
+
+.block {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.right-col img {
+  margin: auto;
+  height: 650px;
+  display: block;
+  margin-right: 200px;
+  padding-left: 200px;
+}
+
+.left-col h2{
+  color: black;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.left-col h3 {
+  color: black;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.left-col img {
+  height: 40px;
+  width: 40px;
+}
+
+.left-col li {
+  color: black;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-right: 200px;
+}
+
+.left-col {
+  display: inline-block;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 150px;
+}
